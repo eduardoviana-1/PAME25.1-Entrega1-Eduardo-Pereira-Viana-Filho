@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = 'pt-BR'>
+<head>
+    <meta charset = 'UTF-8'>
+    <!--Tag viewport para ser responsivo em dispositivos móveis-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netfluxo</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Fonte utilizada no título da página-->
+    <link href = "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <!--Logo-->
+    <h1 class = "logo">Netfluxo</h1>
+</header>
+<!--Representação de tudo que está dentro da caixa preta no centro da tela-->
+<div class = 'caixa'>
+    <h2>Entrar</h2>
+    <form>
+        <!--Caixa para adicionar o email-->
+        <label for="email"></label>
+        <input type = 'text' id="email" placeholder="Email ou número de celular">
+        <!--Caixa para adicionar a senha-->        
+        <label for="senha"></label>
+        <input type = 'password' id="senha" placeholder="Senha" >
+        <!--Botão de entrar-->
+        <button class = 'botao' type="submit">Entrar</button>
+    
+    <div class = 'ou'>OU</div>
+    <!--Botão para utilizar um código de acesso-->
+    <button class = 'botaocod'>Usar um código de acesso</button>
+    <!--Link para o caso de esquecimento da senha-->
+    <a href = "#" class = "link-senha">Esqueceu a senha?</a>
+    
+    <!--Representação da checkbox escrito Lembre-se de mim ao lado-->
+    <div class="lembrar-container">
+        <label class="lembrar" for="lembrar">
+            <input type="checkbox" id="lembrar">
+        </label>
+        <p>Lembre-se de mim</p>
+    </div>
+    <!--Opção para novos usuários que não possuem uma conta registrada-->
+    <div class = 'novo'>
+        Novo por aqui? <a href="#">Assine agora</a>
+    </div>
+    </form>
+</div>
+<!--Rodapé-->
+<footer>
+    <div class="links">
+        <p>Dúvidas? Ligue 0000 000 0000</p>
+      <div class="link colunas">  
+        <ul>
+            <li><a href="#">Perguntas frequentes</a></li>
+            <li><a href="#">Central de ajuda</a></li>
+            <li><a href="#">Preferências de cookies</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Informações corporativas</a></li>
+            <li><a href="#">Termos de uso</a></li>
+            <li><a href="#">Privacidade</a></li>
+        </ul>
+      </div>
+        <div class="seletor">
+            <select name="idioma" id="idioma">
+                <option value="pt-BR">Português</option>
+            </select>
+        </div>
+        
+    </div>
+</footer>
+
+</body>
+</html>

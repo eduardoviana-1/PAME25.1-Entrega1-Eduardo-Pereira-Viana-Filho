@@ -1,0 +1,181 @@
+html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url('image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+header {
+    position: relative;
+    top: 10px;
+    left: 50px;
+    z-index: 2;
+    letter-spacing: 2px;
+}
+
+.logo {
+    color: rgb(228, 108, 3);
+    font-family: 'bebas neue', sans-serif;
+    font-size: 50px;
+
+}
+.caixa {
+    background-color: rgba(0,0,0,0.75);
+    margin: 100px auto;
+    width: 270px;
+    padding: 40px 30px;
+
+}
+
+.caixa h2 {
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 16px;
+    color: white;
+    font-family: cursive;
+}
+
+.caixa input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: rgba(75, 74, 74, 0.8);
+    border: 2px solid grey;
+    
+}
+
+.botao {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(228, 108, 3);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.ou {
+    text-align: center;
+    opacity: 0.7;
+    margin: 10px;
+    color: grey;
+}
+
+.botaocod {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.272);
+    font-weight: bold;
+    margin-bottom: 12px;
+    border: none;
+    color: rgb(163, 163, 163);
+}
+
+.link-senha {
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    color:rgb(163, 163, 163);
+    margin-bottom: 10px;
+}
+
+
+.lembrar-container {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
+
+.lembrar {
+    display: flex;
+    color:rgb(163, 163, 163);
+    font-size: 0.9em;
+    align-items: center;
+    gap: 12px;
+    margin:0;
+    padding: 0;
+    width: 10px;
+    
+}
+
+.lembrar input {
+    margin: 0px;
+    padding: 0;
+    transform: scale(2);
+}
+
+p {
+    color: grey;
+    margin: 8px;
+}
+
+.novo {
+    font-size: 0.9em;
+    color: rgb(104, 104, 104);
+    text-align: start;
+}
+
+.novo a {
+    color: rgb(163, 163, 163);
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: grey;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: auto;
+    text-decoration:none;
+}
+
+.links {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    color: grey;
+}
+
+.links-colunas {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    list-style:none;
+    justify-content:space-between;
+    padding: 20px 0;
+    color: grey;
+}
+
+.link-colunas ul {
+    padding: 0;
+    margin: 0;
+}
+
+.link-colunas li {
+    margin-bottom: 10px;
+}
+
+.link-colunas a:hover {
+    text-decoration:underline;
+    color: grey;
+}
+
+.seletor {
+    margin-top: 10px;
+}
+
+.seletor select {
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    font-size:0.9em;
+}
